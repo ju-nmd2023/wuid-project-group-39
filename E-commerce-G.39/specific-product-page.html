@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GLINA</title>
+    <link rel="stylesheet" href="css/specific-product-page.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Unbounded&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.cdnfonts.com/css/mauline" rel="stylesheet">
+    <script src="js/spec-prod-page.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="phonedown" id="hamburger">
+        <button class="hamburgerbtn" onclick="toggleDropdown()">
+        <img id="hamburgerimg" src="img/hamburgermenu.png" alt="hamburger menu icon">  
+        </button>
+        <div class="phonedown-content">
+            <a href="product-page.html">All Products</a>
+            <a href="#">Workshops</a>
+            <a href="#">Contact</a>
+            <a href="#">About us</a>
+        </div>
+      </div>
+
+
+      <ul id="header-tabs">
+
+        <li class="dropdown">
+          <button class="dropbtn"> Products</button>
+          <div class ="dropdown-content">
+            <a href="product-page.html">All Products</a>
+            <a href="#">Mugs</a>
+            <a href="#">Bowls</a>
+            <a href="#">Plates</a>
+            <a href="#">Decorative</a>
+          </div>
+        </li>
+        
+        <a href="#">
+          <li>Workshops</li>
+        </a>
+
+        <a href="#">
+          <li>Contact</li>
+        </a>
+
+        <a href="#">
+          <li>About us</li>
+        </a>
+      </ul>
+
+      <div id="logo-wrapper">
+        <a href="index.html">
+           <h1 id="logo">GLINA</h1>
+        </a>
+      </div>
+      
+      <div class="flex-container">
+        <div class="webicons">
+          
+          <div>
+           <span class="material-symbols-outlined">
+          search
+           </span>
+          </div>
+
+          <div>
+            <span class="material-symbols-outlined">
+            person
+            </span>
+          </div>
+
+
+          <div>
+           <span class="material-symbols-outlined">
+              favorite
+            </span>
+          </div>
+
+        </div>
+        
+
+
+       <div class="cartdown">
+        <button class="cartbtn">
+          <a href="cartsummary.html">
+          <span class="material-symbols-outlined">
+            shopping_bag </span>
+          </a>
+        </button>
+          <div class="overlay">
+            <p id="number">1</p>
+          </div>
+          <div class ="cartdown-content">
+            <div class="cart-summary">
+              
+               <img class="smiley-dropdown" src="img/smileymug.heic.webp" alt="mug with smiley faces"> 
+              
+               
+              
+               <div class="price1"> 
+                  <p>SMILEY MUG</p>
+                  <p>190kr</p> 
+                  <p>x1</p>
+                </div>
+       
+             
+                <img id="addeditem" src="img/smileyplate.webp" alt="smiley plate">
+              
+                <div id="price2">
+                  <p>SMILEY PLATE</p>
+                  <p>200kr</p>
+                  <p>x1</p>
+                </div>
+              </div>
+              <a href="cartsummary.html">
+                <button class="cart-button">To cart</button>
+              </a>
+          </div>   
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+    <main>
+    <div class="main-all-grid">
+      <div class="mainmainmain">
+         <div class="container-product-photos">
+           <div id="plate-1" class="fix-grid-pls">
+             <img
+               class="smiley-plates"
+               src="specific-product-img/IMG_63083_1296x.heic.jpeg"/>
+           </div>
+
+           <div id="plate-2" class="fix-grid-pls">
+             <img class="smiley-plates" src="specific-product-img/1.jpeg" />
+           </div>
+
+           <div id="plate-3" class="fix-grid-pls">
+             <img class="smiley-plates" src="specific-product-img/2.jpeg" />
+           </div>
+
+           <div id="plate-4" class="fix-grid-pls">
+             <img  class="smiley-plates" src="specific-product-img/3.jpeg" />
+           </div>
+         </div>
+
+         <div class="container-product-text">
+           <div>
+             <p id="specific-product-name">SMILEY PLATE</p>
+             <p id="specific-product-price">200 kr</p>
+             <p id="specific-product-sizes">Sizes</p>
+           </div>
+
+           <div class="sizes-container">
+             <div class="sizes-box">
+               <button class="size-button">10cm</button>
+             </div>
+             <div class="sizes-box">
+               <button class="size-button">20cm</button>
+             </div>
+             <div class="sizes-box">
+               <button class="size-button">30cm</button>
+             </div>
+           </div>
+
+           <div class="add-to-cart-box">
+             <button id="change-button">Add to cart</button>
+           </div>
+
+           <div class="description-container">
+             <div class="description-text">
+               <p id="description-title">Product description</p>
+               <p id="description-product">
+              The Smiley Plate is a fan favourite among both children and
+              adults. Perfect for any party, this is a must-have.
+               </p>
+             </div>
+
+             <div class="description-text">
+               <p id="description-title">Materials</p>
+               <p id="description-materials">- Clay</p>
+               <p id="description-materials">- Coating</p>
+               <p id="description-materials">- Acrylic enamel</p>
+               <p id="description-materials">- Paint</p>
+             </div>
+
+             <div class="description-text">
+               <p id="description-title">Care</p>
+               <p id="description-care">
+              Handwashing is recommended. Recommended dishwasher temperature -
+              40 to 50 C.
+               </p>
+             </div>
+           </div>
+         </div>
+      </div>
+    
+         <div class="other-products-container">
+           <div class="other-products-text">
+             <p id="other-products-you-may-like">Other products you may like →</p>
+           </div>
+
+           <div class="other-products-photos">
+             <img class="otherpictures" src="specific-product-img/IMG_2815_1296x.heic.jpeg" />
+             <img class="otherpictures" src="specific-product-img/IMG_6144_1296x.heic.jpeg" />
+             <img class="otherpictures" src="specific-product-img/IMG_3680_1296x.heic.jpeg" />
+           </div>
+         </div>
+    </div>
+  
+    </main>
+
+    <div id="mobileicons">
+      <div class="bottomicon">
+         <span class="material-symbols-outlined">
+        search
+         </span>
+      </div>
+
+      <div class="bottomicon">
+        <span class="material-symbols-outlined">
+          person
+        </span>
+      </div>
+
+
+      <div class="bottomicon">
+        <span class="material-symbols-outlined">
+            favorite
+        </span>
+      </div>
+    </div>
+
+    <footer>
+      <ul id="footer-info-one">
+          <li>CONTACT</li>
+          <li>ABOUT US</li>
+          <li>COOKIES</li>
+        </ul>
+        
+        <div id="copyright">
+          <span id="copysymbol" class="material-symbols-outlined">
+          copyright
+          </span>
+           <p>GLINA</p>
+        </div>
+  
+        <ul id="footer-info-two">
+          <li>Instagram</li>
+          <li>Facebook</li>
+          <li>TikTok</li>
+        </ul>
+  </footer>
+  </body>
+</html>
